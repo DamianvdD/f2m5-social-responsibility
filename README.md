@@ -1,3 +1,11 @@
+## Informatie
+
+Naam: Damian van der Dennen
+Klas: SD2C
+Naam van het project: MakeTransformerCommunityGreatAgain
+Team Repository: [Link naar de TeamRepository](https://github.com/DamianvdD/F2M5TeamRep)
+Ma-Cloud URL: [Link naar de URL](https://30921.hosts1.ma-cloud.nl/F2M5SYS-SEC-PROG/F2M5TeamRep/index.php)
+
 ## MVC starter project
 
 Gebruik dit voorbeeld project als uitfgangspunt voor het huidige project. Hiermee leer je werken volgens de MVC structuur (model view controller).
