@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Transformers Community</title>
+    <link rel="shortcut icon" href="<?php echo site_url( '/Images/TransformerLogo.png' ) ?>" sizes="256x256">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo site_url( '/css/style.css' ) ?>" media="all">
 	<?php if ( $this->section( 'css' ) ): ?>
@@ -14,7 +15,7 @@
 <body>
 <div class="container">
     <header>
-        <h1>Social Responsibility</h1>
+        <img src="<?php echo site_url( '/Images/TransformersCommunityLogo.jpg' ) ?>"><h1>HomePage</h1>
     </header>
     <nav>
 		<?php if ( $this->section( 'navigation' ) ): ?>
@@ -32,7 +33,10 @@
         </aside>
     </main>
     <footer>
-        &copy; <?php echo date('Y')?>
+        &copy; <?php echo date('Y')?> | Daim LLC 
+        <a href="https://www.instagram.com/transformer.community/" target="_blank">
+            <img src="<?php echo site_url( '/Images/InstaLogo.jpg' ) ?>">
+        </a>
     </footer>
 </div>
 <?php $this->start( 'javascript' ) ?>

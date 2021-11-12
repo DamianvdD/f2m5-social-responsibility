@@ -2,7 +2,7 @@
 
 body {
     font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
-    background: rgba(20, 58, 135, 0.8);
+    background: rgba(30, 7, 160);
 }
 
 main {
@@ -10,12 +10,14 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 20px;
     background: #fff;
+    text-align: center;
 }
 
 header {
     padding: 20px;
     background: rgba(0, 13, 39);
     color: #fff;
+    display: flex;
 }
 
 header h1 {
@@ -24,7 +26,7 @@ header h1 {
 
 nav {
     padding: 20px;
-    background: rgb(162, 184, 232);
+    background: rgb(254, 78, 2);
     color: #fff;
 }
 
@@ -38,19 +40,22 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav ul li {
-    display: block;
+    display: inline-block;
 }
 
 nav ul li a {
     display: block;
     padding: 5px 10px;
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     text-decoration: none;
+    border-radius: 32px;
 }
 
 nav ul li .active, nav ul li a:hover {
@@ -58,11 +63,20 @@ nav ul li .active, nav ul li a:hover {
     background: #fff
 }
 
-
 aside {
-    background: rgb(162, 184, 232);
+    background: rgb(86, 38, 202);
     min-height: 100px;
     padding: 20px;
+    color: white;
+    text-align: left;
+}
+
+aside a {
+    color: white;
+}
+
+aside a:hover {
+    color: rgb(254, 78, 2);
 }
 
 .top-10 ol {
@@ -74,6 +88,8 @@ footer {
     padding: 20px;
     color: #fff;
     background: rgba(0, 13, 39);
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
 
 @media screen and (min-width: 900px) {
@@ -86,3 +102,9 @@ footer {
     }
 
 }
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
